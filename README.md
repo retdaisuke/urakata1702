@@ -5,6 +5,9 @@
 [ウラカタ勉強会 2017年2月度 Vagrantによるローカル仮想環境の構築 // Speaker Deck](https://speakerdeck.com/urakata/urakatamian-qiang-hui-2017nian-2yue-du-vagrantniyorurokarujia-xiang-huan-jing-falsegou-zhu)
 
 
+## 使用した Vagrantfile
+[Vagrantfile](https://github.com/retdaisuke/urakata1702/blob/master/scotchbox/Vagrantfile)
+
 ## スライド補足資料
 スライドで使用したURLやコマンド、コードをこちらで補足したので参考にしてください。
 
@@ -126,7 +129,7 @@ public フォルダの中に適当に test と書いた index.html を作成す�
 
 ### Vagrant Share
 
-Vagrantfile に共有フォルダの設定を記述する
+Vagrantfile にポート転送の設定を記述する
 
 ```rb
 config.vm.network "forwarded_port", guest: 80, host: 8080
