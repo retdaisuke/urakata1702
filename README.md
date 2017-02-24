@@ -1,4 +1,9 @@
-# urakata1702
+# 2017年2月ウラカタ勉強会 Vagrantによるローカル仮想環境の構築
+
+## 使用したスライド
+
+[ウラカタ勉強会 2017年2月度 Vagrantによるローカル仮想環境の構築 // Speaker Deck](https://speakerdeck.com/urakata/urakatamian-qiang-hui-2017nian-2yue-du-vagrantniyorurokarujia-xiang-huan-jing-falsegou-zhu)
+
 
 ## スライド補足資料
 スライドで使用したURLやコマンド、コードをこちらで補足したので参考にしてください。
